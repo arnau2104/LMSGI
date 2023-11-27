@@ -1,0 +1,75 @@
+*  {
+    border: 0px;
+    padding: 0px;
+    text-align: center;
+    
+}
+header {
+   
+    background-color: #d3d0cb;
+}
+a {
+    color: #1e2019; 
+    text-decoration: none;
+    padding: 10px;
+}
+header a:hover{
+   font-weight: bold;
+   text-decoration: underline;
+}
+
+body {
+    background-color: #1e2019;
+    color: #d3d0cb;
+}
+
+form {
+    border: 1px;
+    border-color: #d3d0cb;
+    border-style: solid ;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.envia {
+    background-color: #E2C044;
+    color: black;
+    width: 50px;
+}
+.envia:hover {
+    background-color: #e2c044d8;
+    color: black;
+}
+
+input:focus {
+    border: 3px;
+    border-style: solid;
+   border-color: #E2C044;
+} 
+
+.checkbox {
+    color: #d3d0cb;
+    text-decoration: underline;
+}
+img {
+    width: 200px;
+}
+
+.comentaris:hover {
+    border: 3px;
+    border-style: solid ;
+   border-color: #E2C044;
+}
+hr {
+    border-color: #d3d0cb;
+    border: 1px;
+    border-style: solid;
+}
+
+input[type="radio"]:checked + label::before {
+    background-color: #3498db;
+    border-color: red;
+}
