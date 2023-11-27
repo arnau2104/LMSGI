@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav {
+  background-color: gray;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+a{
+  text-decoration: none;
+  color: red;
+}
+a:hover{
+  color: white;
+  background-color: red;
+}
+
+a:visited{
+  text-decoration: none;
+  color: #003D2D;
+}
+a:focus {
+  color: blue;
+}
+a:active  {
+  color: orange !important;
+  text-decoration: none;
+}

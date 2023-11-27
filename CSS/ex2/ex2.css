@@ -1,0 +1,30 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #CC3502;
+}
+.blau {
+  color: #3C699B;
+}
+.fonsgrog {
+  background-color: #FFFFCC;
+  color: #0203BB;
+  
+ 
+}
+.cursiva {
+  font-style: italic;
+}
+.fonsnegre {
+  background-color: black;
+  color: yellow;
+}
+.negreta {
+  font-weight: bold;
+  color: #555555;
+}
+.gris {
+  color: #555555;;
+}

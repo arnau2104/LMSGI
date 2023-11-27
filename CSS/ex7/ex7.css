@@ -1,0 +1,38 @@
+
+
+body{
+  margin: 0 auto;
+  width: 960px;
+
+}
+
+
+h1 {
+  text-align: center;
+}
+
+.columna1 {
+float: left;
+width: 260px;
+
+}
+
+.columna2 {
+ float: left; 
+ width: 700px;
+}
+.columna3 {
+  float: right;
+  width: 700px;
+}
+
+p ~ ul > li{
+  float: left;
+  width: 220px;
+  list-style: none;
+ padding-right: 5px;
+}
+p ~ ul {
+  padding-left: 0px;
+  
+}
