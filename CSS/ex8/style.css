@@ -48,6 +48,7 @@ header input[type=button]:hover{
 
 main {
   position: relative;
+  margin-bottom: 25px;
 }
 
 aside {
@@ -64,8 +65,15 @@ aside  a {
   
 }
 
+aside  a:hover { 
+color: #ff8800;
+text-decoration: underline;
+  
+}
+
 aside ul li {
   list-style: none;
+  padding-left: 15px;
 }
 
 section {
@@ -85,6 +93,12 @@ margin-left: 15% ;
 #products-filter a {
   color: black;
   font-weight: bold;
+  text-decoration: none;
+}
+
+#products-filter a:hover {
+  text-decoration: underline;
+  
 }
 
 article{
@@ -99,6 +113,10 @@ article{
   width: 100%;
  }
 
+ article  .image-container  img:hover {
+  opacity: 80%;
+ }
+
  span {
   font-weight: bold;
  }
@@ -109,6 +127,7 @@ article{
 
  #load-more-products {
   height: 15%;
+  margin-bottom: 35px;
  }
 
  #load-more-products > button {
@@ -118,8 +137,25 @@ article{
   width: 5%;
   height: 15%;
   background-color: #ff8800;
+  padding: 5px;
+ 
   
-  
+ }
+
+ #load-more-products > button:hover {
+  background-color: #db7603;
+ }
+
+ #back-to-top {
+  position: fixed;
+  right: 6%;
+  top: 85%;
+  background-color: #ff8800;
+  padding: 5px;
+ }
+
+ #back-to-top:hover {
+  background-color: #db7603;
  }
 
  footer {
@@ -128,11 +164,11 @@ article{
   width: 100%;
   text-align: center;
   bottom: 0;
+  
+ 
  }
 
- footer {
-  display: block;
- }
+
 
  footer ul li {
   display: inline;
