@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!--Document 2-->
+<libros>
+<libro id="quijote">
+<titulo>El Quijote</titulo>
+<autor nombre="cervantes"></autor>
+<descripcion>Es el mejor libro de cervantes.</descripcion>
+</libro>
+</libros>
+<!--He canviat:
+he tancat l'etiqueta titulo, he posat cervantes entre comentes i he eliminat un nombre=cervantes, antes en havia dos.
+he canviat m<ejor a mejor y </libro] a </libro> i tambe </Libros> a </libros> perque sigui igual que l'etiqueta que obre -->

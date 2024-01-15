@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Document 1:-->
+<documento>
+<p>Mi Primer &lt;destacar importancia=1&gt;documento XML</p>
+<p>Comienza con la etiqueta &lt;documento&gt;</p>
+<p>A continuacion colocamos un elemento sin contenido</p>
+<imagen fichero="imagen.gif"> </imagen>
+</documento>
+<!--  He canviat </p] a </p> perque de l'anterior manera no tancava l'etiqueta
+He canviat <destacar importancia=1> a  &lt;destacar importancia=1&gt; i he elminiat </destacar>
+He tancat l'etiqueta imagen
+  -->  
