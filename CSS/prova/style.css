@@ -1,0 +1,34 @@
+/* Todos los parrafos*/
+
+p {
+  color: darkslategray;
+}
+
+/* Listas dentro de un nav*/
+
+nav ul {
+  list-style-type: none;
+}
+
+/* tambe es pot enmprar aques, es millor inclus
+nav li {
+  list-style-type: none;
+}
+*/
+
+/* ~ altgr 4*/
+
+/* inputs jus a continuacio del div*/
+div + input[type="text"] {
+background-color: plum;
+}
+
+/* Tots els titols que es trobin dins el primer div de qualsevfol paragref*/
+div h1:first-child, h2:first-child, h3:first-child {
+  text-decoration: underline;
+}
+
+/* Tots els paragrefs que no tenen germans */
+p:only-child {
+  background-color: blueviolet;
+}
