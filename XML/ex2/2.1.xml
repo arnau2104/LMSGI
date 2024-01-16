@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--<!DOCTYPE viatge [
+<!ELEMENT viatge(nom,llinatge,data_inici,data_final,origen_viatge) >
+<!ELEMENT nom (#PCDATA) >
+<!ELEMENT llinatge (#PCDATA) >
+<!ELEMENT data_inici (#PCDATA)>
+<!ELEMENT data_final (#PCDATA)>
+<!ELEMENT origen_viatge (#PCDATA)>
+]>
+-->
+<viatge> 
+    <persona1> 
+      <nom>Arnau</nom>
+      <llinatge> Marques </llinatge> 
+      <data_inici> 15/1/2024 </data_inici>
+       <data_final> 22/1/2024 </data_final>
+       <origen_viatge> Menorca </origen_viatge>
+       <desti>
+        <nom_ciutat> Barcelona </nom_ciutat>
+       <nom_hotel> Hotel Barcelona Princess </nom_hotel>
+       <nombre_nits> 7 </nombre_nits>
+       </desti>
+       <preu_viatge>
+          <viatge1> 250.00€ </viatge1>
+        </preu_viatge>
+    </persona1>
+    <persona2>
+     <nom>Marc</nom>
+      <llinatge> Arinyo </llinatge> 
+      <data_inici> 17/2/2024 </data_inici>
+       <data_final> 26/2/2024 </data_final>
+       <origen_viatge> Menorca </origen_viatge>
+       <desti>
+         <nom_ciutat> Madrid </nom_ciutat>
+         <nom_hotel> Hotel Santo Domingo </nom_hotel>
+         <nombre_nits> 9 </nombre_nits>
+       </desti>
+       <preu_viatge>
+          <viatge1> 175.00€ </viatge1>
+        </preu_viatge>
+    </persona2>
+    <persona3> 
+     <nom>Carlos</nom>
+      <llinatge> Abello </llinatge> 
+      <data_inici> 11/4/2024 </data_inici>
+       <data_final> 16/4/2024 </data_final>
+       <origen_viatge> Menorca </origen_viatge>
+       <desti>
+          <nom_ciutat> Turín </nom_ciutat>
+          <nom_hotel> Hotel Urbani </nom_hotel>
+          <nombre_nits> 5 </nombre_nits>
+       </desti>
+       <preu_viatge>
+          <viatge1> 360.00€ </viatge1>
+        </preu_viatge>
+    </persona3>
+</viatge>

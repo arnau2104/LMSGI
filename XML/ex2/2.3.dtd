@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE fabricant_tractors [
+<!ELEMENT fabricant_tractors(comanda+)>
+<!ELEMENT comanda (tractor+)>
+<!ELEMENT tractor (component+)>
+<!ELEMENT component (nom_fabricant,data_entrega,fragil,pes_component,nombre_serie,km_maxims?) >
+<!ELEMENT nom_fabricant (#PCDATA) >
+<!ELEMENT data_entrega(dia?,mes,any)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT any (#PCDATA)>
+<!ELEMENT fragil (si|no)>
+<!ELEMENT pes_component (#PCDATA)>
+<!ELEMENT nombre_serie (#PCDATA)>
+<!ELEMENT km_maxims (#PCDATA)>
+<!ATTLIST pes_component unitat_pes (quilos|grams) #REQUIRED>
+]>

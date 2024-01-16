@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE empresa_llibres [
+<!ELEMENT empresa_llibres (venta|compra)+>
+<!ELEMENT venta (titols_venuts,total_venut,lliurat,import)>
+<!ELEMENT titols_venuts (#PCDATA)>
+<!ELEMENT total_venut (#PCDATA)>
+<!ELEMENT lliurat (si|no)>
+<!ELEMENT import (#PCDATA)>
+<!ELEMENT compra (titols_comprats,proveidor,data_compra)>
+<!ELEMENT titols_comprats (#PCDATA)>
+<!ELEMENT proveidor (#PCDATA)>
+<!ELEMENT data_compra (dia,mes,any)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT any (#PCDATA)>
+<!ATTLIST import moneda CDATA #REQUIRED>
+]>
+<empresa_llibres>
+  <venta>
+    <titols_venuts>Cenicienta</titols_venuts>
+    <total_venut>1</total_venut>
+    <lliurat>si</lliurat>
+    <import moneda="euros">15.00 </import>
+  </venta>
+  <compra>
+    <titols_comprats>Cenicienta</titols_comprats>
+    <proveidor> Astrulibros </proveidor>
+    <data_compra>
+      <dia>15</dia>
+      <mes>01</mes>
+      <any>2024</any>
+    </data_compra>
+  </compra>
+</empresa_llibres>

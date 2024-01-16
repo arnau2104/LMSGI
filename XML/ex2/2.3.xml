@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE fabricant_tractors SYSTEM "2.3.dtd">
+
+<fabricant_tractors>
+  <comanda>
+    <tractor>
+      <component>
+        <nom_fabricant> Tractors Menorca </nom_fabricant>
+        <data_entrega>
+          <mes>02</mes>
+          <any>2024</any>
+        </data_entrega>
+        <fragil>no</fragil>
+        <pes_component unitat_pes="quilos">5 </pes_component>
+        <nombre_serie> #1052024589 </nombre_serie>
+      </component>
+    </tractor>
+  </comanda>
+</fabricant_tractors>
