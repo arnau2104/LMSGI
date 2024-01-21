@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE entrega [
+<!ELEMENT entrega (lot+)>  
+<!ELEMENT lot (palet+)>
+<!ELEMENT palet (nombre_caixes,contingut,pes,forma_manipulacio)>
+<!ELEMENT nombre_caixes (#PCDATA)>
+<!ELEMENT contingut (nom_component,procedencia*,nombre_serie,pes_individual,unitat_pes?)>
+<!ELEMENT nom_component (#PCDATA) >
+<!ELEMENT procedencia (#PCDATA)>
+<!ELEMENT nombre_serie (#PCDATA) >
+<!ELEMENT pes_individual (#PCDATA) >
+<!ELEMENT unitat_pes (#PCDATA)>
+<!ELEMENT pes (#PCDATA)>
+<!ELEMENT forma_manipulacio (#PCDATA)>
+]>
+<entrega>
+    <lot>
+        <palet>
+            <nombre_caixes> 2 </nombre_caixes>
+            <contingut>
+                <nom_component> Intel-Core i5 </nom_component>
+                <procedencia> USA </procedencia>
+                <nombre_serie> 0001 </nombre_serie>
+                <pes_individual> 100 </pes_individual>
+                <unitat_pes> grams </unitat_pes>
+            </contingut>
+            <pes> 15 </pes>
+            <forma_manipulacio> prudent </forma_manipulacio>
+        </palet>
+    </lot>
+</entrega>

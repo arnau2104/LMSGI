@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE llistacomandes [
+<!ELEMENT llistacomandes (comanda*)>
+<!ELEMENT comanda (numero_serie, quantitat, pes?)>
+<!ELEMENT numero_serie (#PCDATA)>
+<!ELEMENT quantitat (#PCDATA)>
+<!ELEMENT pes (#PCDATA)>
+<!ATTLIST pes u_almacenatge CDATA #REQUIRED>
+]>
+<llistacomandes>
+    <comanda>
+        <numero_serie>0001</numero_serie>
+        <quantitat>2</quantitat>
+        <pes u_almacenatge="kb">750</pes>
+    </comanda>
+    <comanda>
+        <numero_serie>0002</numero_serie>
+        <quantitat>1</quantitat>
+    </comanda>
+</llistacomandes>

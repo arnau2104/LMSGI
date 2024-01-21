@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<numeros>
-<numero valor="1" letra1="u" letra2="n" letra3="o">1</numero>
-<numero valor="2" letra1="d" letra2="o" letra3="s">22</numero>
-<numero valor="6" letra1="s" letra2="e" letra3="i" letra="s">666666</numero>
-</numeros>
-
-<!-- He afegit un mateix nom a les etiquetes que es "numero", perque tots son del mateix nivell i he tancat totes les etiquetes amb "</numero>".
-He afegit l'atribut valor davant cada nombre es sapiga quim nombre es i tambe he afegit el nombre de lletre que es darrere cada atribut de lletre(letra1="u" letra2="n" letra3="o")  -->

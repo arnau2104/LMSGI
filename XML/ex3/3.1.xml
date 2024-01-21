@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE llistavendes [
+<!ELEMENT llistavendes (venda+)>
+<!ELEMENT venda (import,comprador,venedor,data?,codi_factura)>
+<!ELEMENT import (#PCDATA)>
+<!ELEMENT comprador (#PCDATA)>
+<!ELEMENT venedor (#PCDATA)>
+<!ELEMENT data (dia,mes,any)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT any (#PCDATA)>
+<!ELEMENT codi_factura (#PCDATA)>
+]>
+<llistavendes>
+    <venda>
+        <import> 150.00 </import>
+        <comprador> Arnau </comprador>
+        <venedor> Marc </venedor>
+        <data>
+            <dia> 21 </dia>
+            <mes> 05 </mes>
+            <any> 2024 </any>
+        </data>
+        <codi_factura> 20241920 </codi_factura>
+    </venda>  
+</llistavendes>
