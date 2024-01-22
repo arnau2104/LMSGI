@@ -1,6 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<!DOCTYPE fabricant_tractors [
 <!ELEMENT fabricant_tractors (comanda+)>
 <!ELEMENT comanda (tractor+)>
 <!ELEMENT tractor (component+)>
@@ -15,4 +12,3 @@
 <!ELEMENT nombre_serie (#PCDATA)>
 <!ELEMENT km_maxims (#PCDATA)>
 <!ATTLIST pes_component unitat_pes (quilos|grams) #REQUIRED>
-]>

@@ -7,7 +7,7 @@
 <!ELEMENT titulosvendidos (titulo+,cantidadtotal,entregado?,importe+)>
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT cantidadtotal (#PCDATA)>
-<!ELEMENT entregado (#PCDATA)>
+<!ELEMENT entregado EMPTY>
 <!ELEMENT importe (#PCDATA)>
 <!ELEMENT compra (tituloscomprados*)>
 <!ELEMENT tituloscomprados (titulo_compra+,proveedor,fechacompra)>

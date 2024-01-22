@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE llistafactures [
+<!ELEMENT llistafactures (factura+)>
+<!ELEMENT factura (emissor,pagador,import)>
+<!ELEMENT emissor (nom,volum_venta?)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT volum_venta (#PCDATA)>
+<!ELEMENT pagador (nom,volum_compra?)>
+<!ELEMENT volum_compra (#PCDATA)>
+<!ELEMENT import (#PCDATA)>
+<!ATTLIST factura data CDATA #IMPLIED>
+<!ATTLIST emissor cif CDATA #REQUIRED>
+<!ATTLIST pagador cif CDATA #REQUIRED>
+]>
+
+<llistafactures>
+  <factura data="2024-01-22">
+    <emissor cif="4119447H">
+      <nom> Arnau </nom>
+    </emissor>
+    <pagador cif="41747892F">
+      <nom> Peri </nom>
+      <volum_compra> 15Kg </volum_compra>
+    </pagador>
+    <import> 250.00 </import>
+  </factura>
+</llistafactures>
