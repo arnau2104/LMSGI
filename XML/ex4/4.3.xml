@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE demanat [
+<!ELEMENT demanat (llibre| quadern| llapis)*>
+<!ELEMENT llibre (#PCDATA)>
+<!ELEMENT quadern (#PCDATA)>
+<!ELEMENT llapis (numero)>
+<!ELEMENT numero (#PCDATA)>
+<!ATTLIST llibre titol CDATA #REQUIRED>
+<!ATTLIST quadern num_fulles CDATA #IMPLIED>
+]>
+<demanat>
+  <llibre titol="el niño del pijama de rayas">4</llibre>
+  <llibre titol="Futbolisimos">1</llibre>
+  <llapis>
+    <numero> 5 </numero>
+  </llapis>
+  <quadern num_fulles="150">1 </quadern>
+</demanat>
