@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mercat_accions [
+<!ELEMENT mercat_accions (futur+,divisa+,bo+,lletra+)>
+<!ELEMENT futur (origen_producte,valor_esperat,mercat?)>
+<!ELEMENT origen_producte (Madrid|Nova_York|Frankfurt|Toquio)>
+<!ELEMENT Madrid EMPTY>
+<!ELEMENT Nova_York EMPTY>
+<!ELEMENT Frankfurt EMPTY>
+<!ELEMENT Toquio EMPTY>
+<!ELEMENT valor_esperat (#PCDATA)>
+<!ELEMENT mercat (#PCDATA)>
+<!ELEMENT divisa (origen_producte,nom,canvi*)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT canvi (#PCDATA)>
+<!ELEMENT bo (origen_producte,pais_procedencia,valor_desitjat,valor_minim,valor_maxim)>
+<!ELEMENT pais_procedencia (#PCDATA)>
+<!ELEMENT valor_desitjat (#PCDATA)>
+<!ELEMENT valor_minim (#PCDATA)>
+<!ELEMENT valor_maxim (#PCDATA)>
+<!ELEMENT lletra (origen_producte,interes_pagable,pais_emissor)>
+<!ELEMENT interes_pagable (#PCDATA)>
+<!ELEMENT pais_emissor (#PCDATA)>
+<!ATTLIST divisa pasat_estable (si|no) #IMPLIED>
+<!ATTLIST bo pasat_estable (si|no) #IMPLIED>
+<!ATTLIST futur preu CDATA #REQUIRED> 
+<!ATTLIST divisa preu CDATA #REQUIRED>
+<!ATTLIST bo preu CDATA #REQUIRED>
+<!ATTLIST lletra preu CDATA #REQUIRED>
+]>
+
+<mercat_accions>
+    <futur preu="200">
+        <origen_producte>
+            <Madrid></Madrid>
+        </origen_producte>
+        <valor_esperat> 200€ </valor_esperat>
+    </futur>
+    <divisa pasat_estable="si" preu="225">
+        <origen_producte>
+            <Toquio></Toquio>
+        </origen_producte>
+        <nom> Arnau </nom>
+        <canvi>Euros </canvi>
+    </divisa >
+    <bo pasat_estable="no" preu="210">
+        <origen_producte>
+            <Madrid></Madrid>
+        </origen_producte>
+        <pais_procedencia> Espanya </pais_procedencia>
+        <valor_desitjat>250€</valor_desitjat>
+        <valor_minim> 190€ </valor_minim>
+        <valor_maxim> 270€ </valor_maxim>
+    </bo>
+    <lletra preu="210">
+        <origen_producte>
+            <Madrid></Madrid>
+        </origen_producte>
+        <interes_pagable> 210€</interes_pagable>
+        <pais_emissor> Espanya </pais_emissor>
+    </lletra>
+</mercat_accions>
