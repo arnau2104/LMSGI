@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empleats
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="empleats.xsd">
+  <empleat>
+    <nom id="emp1">Arnau</nom>
+    <data_inici_contracte>
+      <dia>---06</dia>
+      <mes>--02</mes>
+      <any>2024</any>
+    </data_inici_contracte>
+    <lloc_ocupat> Administrador de xarxa</lloc_ocupat>
+    <cap_directe>emp1</cap_directe>
+    <sou>1500</sou>
+    <titols_academics>Grau Mitja en administracio de xarxes</titols_academics>
+    <seu>Barcelona</seu>
+    <observacions>
+      <merits>Aprenentage rapid</merits>
+    </observacions>
+  </empleat>
+  <empleat>
+    <nom id="emp2">Marc</nom>
+    <data_inici_contracte>
+      <dia>---01</dia>
+      <mes>--07</mes>
+      <any>2021</any>
+    </data_inici_contracte>
+    <lloc_ocupat> Desarrolador web</lloc_ocupat>
+    <cap_directe>emp2</cap_directe>
+    <sou>1800</sou>
+    <titols_academics>Grau Mitja en administracio de xarxes</titols_academics>
+   <titols_academics>Grau Supero en desarrol d'aplicacion  web</titols_academics>
+    <seu>Madrid</seu>
+  </empleat>
+  <empleat>
+    <nom id="emp3">Carlos</nom>
+    <data_inici_contracte>
+      <dia>---10</dia>
+      <mes>--01</mes>
+      <any>2015</any>
+    </data_inici_contracte>
+    <lloc_ocupat>Recepcio</lloc_ocupat>
+    <cap_directe>emp3</cap_directe>
+    <sou>1200</sou>
+    <seu>Valencia</seu>
+    <observacions>
+      <merits>Aprenentage rapid</merits>
+    </observacions>
+  </empleat>
+  <empleat>
+    <nom id="emp4">Dani</nom>
+    <data_inici_contracte>
+      <dia>---15</dia>
+      <mes>--10</mes>
+      <any>2020</any>
+    </data_inici_contracte>
+    <lloc_ocupat> Desarrolador web</lloc_ocupat>
+    <llocs_ocupats_anteriorment>Administrador de xarxa</llocs_ocupats_anteriorment>
+    <cap_directe>emp2</cap_directe>
+    <sou>1800</sou>
+    <titols_academics>Grau Mitja en administracio de xarxes</titols_academics>
+   <titols_academics>Grau Supero en desarrol d'aplicacion  web</titols_academics>
+    <seu>Madrid</seu>
+    <observacions>
+      <merits>Gran creativitat</merits>
+      <merits>Gran inteligencia</merits>
+      <demerits>S'enfada rapid</demerits>
+    </observacions>
+  </empleat>
+  <empleat>
+    <nom id="emp5">Cristina</nom>
+    <data_inici_contracte>
+      <dia>---01</dia>
+      <mes>--07</mes>
+      <any>2005</any>
+    </data_inici_contracte>
+    <lloc_ocupat>Contable</lloc_ocupat>
+    <cap_directe>emp5</cap_directe>
+    <sou>1400</sou>
+    <titols_academics>Administracio de empreses</titols_academics>
+    <seu>Madrid</seu>
+  </empleat>
+</empleats>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objectes
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="subasta.xsd">
+  <objecte>
+    <propietari>Arnau</propietari>
+    <preu_sortida>150</preu_sortida>
+    <preu_minim>200</preu_minim>
+  </objecte>
+  <objecte>
+    <propietari>Marc</propietari>
+    <preu_sortida>200</preu_sortida>
+  </objecte>
+</objectes>
