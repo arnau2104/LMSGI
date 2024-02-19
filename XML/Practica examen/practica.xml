@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ex5.1
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="practica.xsd">
+
+<datos>
+  <ciutat>Roma</ciutat>
+  <nota>7.5</nota>
+  <data_de_naixament>1996-12-18</data_de_naixament>
+</datos>
+
+<datos>
+  <ciutat>Roma</ciutat>
+  <nota>7.5</nota>
+  <data_de_naixament dia="02" mes="02" any="2024"> </data_de_naixament>
+</datos>
+</ex5.1>

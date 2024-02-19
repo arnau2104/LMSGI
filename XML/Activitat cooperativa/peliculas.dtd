@@ -1,0 +1,20 @@
+
+<!ELEMENT cartelera (pelicula+)>
+<!ELEMENT pelicula (titulo_pel·licula,titulo_original?,nacionalidad,genero,clasificacion?,sin_clasificacion?,pendiente_clasificacion?,sinopsis,director,reparto,web?,cartel?)>
+<!ELEMENT titulo_pel·licula (#PCDATA)>
+<!ELEMENT titulo_original (#PCDATA)>
+<!ELEMENT nacionalidad (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT clasificacion EMPTY>
+<!ELEMENT sin_clasificacion EMPTY>
+<!ELEMENT pendiente_clasificacion EMPTY>
+<!ELEMENT sinopsis (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT reparto (actor+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT web (#PCDATA)>
+<!ELEMENT cartel (#PCDATA)>
+<!ATTLIST pelicula codigo CDATA #REQUIRED>
+<!ATTLIST pelicula duracion_minutos CDATA #REQUIRED>
+<!ATTLIST pelicula anio CDATA #DEFAULT "2003">
+<!ATTLIST clasificacion edad_recomendada (tp | 8 | 12 | 16 | 18) >
