@@ -13,6 +13,6 @@ xs:noNamespaceSchemaLocation="practica.xsd">
 <datos>
   <ciutat>Roma</ciutat>
   <nota>7.5</nota>
-  <data_de_naixament dia="02" mes="02" any="2024"> </data_de_naixament>
+  <data_de_naixament dia="02" mes="02" any="2024"></data_de_naixament>
 </datos>
 </ex5.1>
