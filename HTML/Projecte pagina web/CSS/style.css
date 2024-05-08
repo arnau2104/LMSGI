@@ -32,23 +32,27 @@ div p {
 /* Mòbil*/
 @media (max-width: 576px){ 
   
+  .tablet_settings {
+    display: none;
+  }
+
   header {
     height: 50px;
   }
 
- .settings {
+  .movil_settings {
   margin-top: 2px;
  
   width: 100%;
   
  }
 
- .settings input[type=search]{
+ .movil_settings input[type=search]{
   padding-left: 15px;
   float: right;
  }
   
- .settings i {
+ .movil_settings i {
     margin-right: 2px;
     float: right;
    }
@@ -137,6 +141,11 @@ div p {
 
 /* Tablet*/
 @media (min-width: 577px) and (max-width: 1024px) {
+  
+  .movil_settings {
+    display: none;
+  }
+  
   header {
     height: 50px;
   }
@@ -148,12 +157,17 @@ div p {
   
  }
 
- .settings input[type=search]{
+ .tablet_settings {
+  margin-top: 10px;
+ 
+ }
+
+ .tablet_settings input[type=search]{
   padding-left: 15px;
   float: right;
  }
   
- .settings i {
+ .tablet_settings i {
     margin-right: 2px;
     float: right;
    }
@@ -164,7 +178,11 @@ div p {
     font-size: 20px;
    }
 
-   
+   .Equipos_i_Pilotos {
+    margin-left: 75px;
+    width: 50%;
+    
+   }
 
   section {
   display: inline-block;
@@ -174,33 +192,27 @@ div p {
   article{
     margin-top: 10px;
     display: inline-block;
-    width: 30%;
-    height: 70%;
-   padding-right: 50px;
+    width: 20%;
+   padding-right: 10px;
    margin-right: 50px;
+   margin-left: 50px;
     
   }
 
-  
-
-  .image-container {
-    display: inline-block;
-    width: 100%;
-    
-  }
 
   .image-container img {
-    width: 150px;
+    width: 200px;
   }
   .image-container img:hover {
     opacity: 80%;
   }
 
+  /*Boto de comprar*/
   .image-container input[type="button"] {
     position: absolute;
-    margin-left: 9%;
-    width: 10%;
-    height: 3%;
+    margin-left: 10px;
+    width: 55px;
+    height: 30px;
     background-color: #131212;
     color: #F5F5F5;
   }
@@ -234,8 +246,6 @@ div p {
   }
 
 }
-
-
 
 
 
