@@ -4,66 +4,154 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>F1Caps</title>
-  <link rel="stylesheet" href="./Assets/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="../Assets/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" href="../CSS/detallsProducte.css">
 </head>
 <body>
    <header>
     <div>
-      <img src="./Assets/Logo/logo clar.png" id="logo">
-      <h1>Detalls Producte</h1>
+      <a href="../index.html">
+         <img src="../Assets/Logo/logo clar.png" id="logo">
+         <h1>F1Caps</h1>
+      </a>
       <i class="fa fa-shopping-cart" aria-hidden="true" id="carrito"></i>
     </div>
    </header> 
    <main> 
-      <div class="settings"> 
-       <i class="fa fa-sliders" aria-hidden="true" id="filtros"></i>
-        <input type="search" name="search" placeholder="Search...">
-        <i class="fa fa-search" aria-hidden="true"></i>
-      
+      <!--Aixo seran els filtres i el boto de cerca de la tablet i tambe servira per el ordenador-->
+      <div class="tablet_settings">
+         <div class="Equipos_i_Pilotos">
+            <div class="Equipos">
+            <label for="Equipo">Equipos</label>
+            <select id="Equipo">
+               <option value="" selected disabled></option>
+               <option value="Ferrari">Ferrari</option> 
+               <option value="Mercedes">Mercedes</option>  
+               <option value="RedBull">RedBull</option>
+               <option value="Aston Martin">Aston Martin</option>
+               <option value="McLaren">McLaren</option>
+               <option value="Alpine">Alpine</option>
+               <option value="Stake">Stake</option>
+               <option value="Williams">Williams</option> ç
+               <option value="Visa Cash App RB">Visa Cash App RB</option>
+               <option value="Haas">Haas</option>  
+            </select>
+         </div>
+         <div class="Pilotos">
+            <label for="Piloto">Pilotos</label>
+            <select id="Piloto">
+               <option value="" selected disabled></option>
+               <option value="Max Verstappen">Max Verstappen</option> 
+               <option value="Fernando Alonso">Fernando Alonso</option>  
+               <option value="Lewis Hamilton">Lewis Hamilton</option>
+               <option value="Charles Leclerc">Charles Leclerc</option>
+               <option value="Carlos Sainz">Carlos Sainz</option>
+               <option value="Lando Norris">Lando Norris</option>
+               <option value="Oscar Piastri">Oscar Piastri</option>
+               <option value="Daniel Ricciardo">Daniel Ricciardo</option> ç
+               <option value="George Russel">George Russel</option>
+               <option value="Checho Perez">Checho Perez</option>  
+            </select>
+         </div>
+         </div>
+         <i class="fa fa-search" aria-hidden="true" id="lupa"></i>
+         <input type="search" name="search" placeholder="Search...">
+         <hr>
       </div>
+       <!--Aixo seran els filtres i el boto de cerca del movil-->
+      <div class="movil_settings"> 
+        
+        <i class="fa fa-search" aria-hidden="true" id="lupa"></i>
+        <input type="search" name="search" placeholder="Search...">
+        <i class="fa fa-sliders" aria-hidden="true" id="filtros"></i> 
+      </div>
+      
+     
+   </div>
     <section>
-      <article> 
-         <div class="image-container">
-               <!-- Imatge treta de google -->
-            <img src="./Assets/aston martin gorra negra uk edition.jpg" width="200px" >
-            <p>Gorra Aston Martin <input type="button" name="comprar" value="Comprar"> </p>
-            <p>27,99</p>
-            
-         </div>
-      </article>
+      <div class="titol-producte">
+         <h3>Gorra AstonMartin F1 Team</h3>
+        <p>27.99</p>
+      </div>
       <article>
-         <div class="image-container">
-            <!-- Imatge treta de google -->
-            <a href="//classroom.google.com/h">
-            <img src="./Assets/aston martin gorra blanca.jpg" width="200px">
-             </a>
-             <p>Gorra Aston Martin <input type="button" name="comprar" value="Comprar"> </p>   
-            <p>37,99</p>
-         </div>
-      </article>
-      <article>
-         <div class="image-container">
+         <div class="imatge-principal">
                <!-- Imatge treta de google -->
-            <img src="./Assets/asont martin gorra blanca frontal.jpg" width="200px">
-            <p>Gorra Aston Martin <input type="button" name="comprar" value="Comprar"> </p>
-            <p>27,99</p>
            
+             <img src="../Assets/asont martin gorra blanca frontal.jpg" >
+            </a>
+             
+         </div>
+      </article>            
+      <article class="contenidor-lateral">
+         <!--Imatge que aniran al costat de la imatge princiapl-->
+         <div class="imatges-secundaries">
+            <a href="./DetalsProducte2.html">
+                <img src="../Assets/aston martin gorra blanca.jpg">
+            </a>
+         </div>
+      
+         <!--Imatge que aniran al costat de la imatge princiapl-->
+         <div class="imatges-secundaries">
+            <a href="./DetalsProducte2.html">
+                <img src="../Assets/aston martin gorra blanca.jpg">
+            </a>
+         </div>
+      
+         <!--Imatge que aniran al costat de la imatge princiapl-->
+         <div class="imatges-secundaries">
+            <a href="./DetalsProducte2.html">
+                <img src="../Assets/aston martin gorra blanca.jpg">
+            </a>
          </div>
       </article>
-      <article>
-         <div class="image-container">
-            <!-- Imatge treta de google -->
-            <img src="./Assets/vettel aston martin.jpg" width="200px">
-            <p>Gorra Aston Martin <input type="button" name="comprar" value="Comprar"> </p>
-            <p>37,99</p>
-            
-         </div>
-      </article>
+      <article class="informacio-producte">
+       <!--Talles-->
+       <div class="tallas">
+         <p>Tallas:</p>
+         <label class="talla">
+             <input type="radio" name="talla" value="xs">
+             <span>XS</span>
+         </label>
+         <label class="talla">
+             <input type="radio" name="talla" value="s">
+             <span>S</span>
+         </label>
+         <label class="talla">
+             <input type="radio" name="talla" value="m">
+             <span>M</span>
+         </label>
+         <label class="talla">
+             <input type="radio" name="talla" value="l">
+             <span>L</span>
+         </label>
+         <label class="talla">
+             <input type="radio" name="talla" value="xl">
+             <span>XL</span>
+         </label>
+      </div>  
+      <div class="descripcioProducte">
+      <p><h3>Descripcion:</h3>Producto oficial del equipo Aston Martin F1. Adquiere esta gorra de la mítica marca inglesa que compite en la Fórmula 1.</p> 
+      
+         <p><h3>Detalles:</h3>
+
+            <p>Gorra oficial Aston Martin F1.</p>
+           <p>Color: blanco.</p>
+          <p> Material: 95 % poliéster y 5 % elastano.</p>
+           <p>Logo Aston Marting Cognizant F1 Team en el frontal.</p>  
+            Gorra de diferentes tallas con cierre ajustable.
+           <p>Acabados de alta calidad.</p></p>
+      </div>  
+      <input type="button" name="afegir-carrito" value="Añadir la cesta" id="afegir-carrito">
+   </article>
+   
 </section>
    </main>
    <footer>
-    <h1>FOOTER</h1>
-   </footer>
+      <p>  @Copyright F1Caps</p>
+     <i class="fa fa-instagram" aria-hidden="true" id="instagram"></i>  
+     <i class="fa fa-facebook-official" aria-hidden="true" id="facebook"></i>
+     <i class="fa fa-twitter" aria-hidden="true" id="twitter"></i>
+  </footer>
 </body>
 </html>

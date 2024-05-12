@@ -1,0 +1,617 @@
+/* Mòbil*/
+@media (max-width: 576px){ 
+
+  /*Desabitil la clase que conte el filtratge i el cercador de la tablet*/
+  .tablet_settings {
+    display: none;
+  }
+
+  /* Don altura al header*/
+  header {
+    height: 50px; 
+  }
+
+/*Separ el filtratge i el cercador del header i li don el 100% de l'amplada de la pagina*/
+  .movil_settings {
+  margin-top: 5px;
+  width: 100%;
+
+  
+ }
+
+ /*Colocar el cercador alla on vui*/
+ .movil_settings input[type=search]{
+  padding-left: 15px;
+  float: right;
+ }
+
+/*Colocar l'icone d ela lupa a la dreta,la separacio que volem amb la dreta  i donar la dimensio que vui*/
+   #lupa {
+    float: right;
+    font-size: 20px;
+   }
+
+    /*Colocar el icone de filtres a l'esquerra i el tamany*/
+   #filtros {
+    float: left;
+    margin-left: 15%;
+    font-size: 25px;
+    
+   }
+
+   /*Tamany del logo*/
+  #logo {
+    width: 57px;
+  }
+
+  /*Posicio i tamany del icone del carreto de compra*/
+  #carrito {
+    top: 0;
+    right: 0;
+    float: right;
+    color: #131212;
+    position: absolute;
+    font-size: 45px;
+    margin-right: 10px;
+  
+  }
+
+    /*Definir la separacio que vui de la section amb el footer,la separacio a la esquerra i dir-li que puguis tenir articles un duvora l'altre*/
+  section {
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+    
+  }
+
+  /*Definir el tamany el marge i la posicio del contenidor*/
+  .imatge-principal {
+    width: 260px;
+    float: right;
+    margin-right: 25%;
+    
+   }
+
+   /*Tamany de l'imatge*/
+   .imatge-principal img {
+    width: 250px;
+ 
+   }
+
+   /*Definir marges de dalt i baix del contenedor*/
+   .descripcioProducte {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+   }
+
+   /*Posicio del contenedor*/
+   .contenidor-lateral {
+    margin-left: 15%;
+   }
+
+   
+/*Tamany de les imatges*/
+  .imatges-secundaries img {
+    width: 81px;
+    
+  }
+
+  /*Posicio del contenedor del nom i preu del producte*/
+  .titol-producte {
+   margin-top: 10px;
+   margin-left: 15%;
+   margin-bottom: 5px;
+   
+  }
+
+  /*Tamany del nom del producte*/
+ .titol-producte h3 {
+    font-size: 25px;
+   
+  }
+
+  /*Tamany del preu del producte*/
+  .titol-producte p {
+    font-size: 25px;
+    width: 50%;
+  }
+  
+  /*Definir marc del contenedor de cada talla i la posicio*/
+  .talla {
+    border: 1px solid #131212;
+    margin-left: 6px;
+    padding-right: 2px;
+  }
+
+  /*Marge amb l'equesrra del cercle del radio*/
+  .talla input[type="radio"] {
+    margin-left: 5px;
+    
+  }
+
+  /* Posar un marc al contnenedor  de les talles i un tamany*/ 
+  .tallas {
+    width: 335px;
+    margin-top: 10px;
+    border: 1px solid #131212;
+    padding-bottom: 15px;
+  }
+
+  /*Definir el tamany de la lletra i posarle en negreta*/
+  .tallas p {
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  /*Definir la posicio del contenedor*/
+  .informacio-producte {
+    width: 400px;
+    margin-left: 15%;
+    margin-bottom: 20px;
+  }
+
+  /*Definir tamany,posicio i colors del contenedor*/
+  #afegir-carrito {
+    background-color: #131212;
+    color: #F5F5F5;
+    width: 335px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+}
+
+  /* Tablet*/
+@media (min-width: 577px) and (max-width: 1024px) {
+  
+    /*Desabilit la clase que conte el filtratge i el cercador del movil*/
+  .movil_settings {
+    display: none;
+  }
+  
+   /* Don altura al header*/
+  header {
+    height: 50px;
+  }
+
+/*Separ el filtratge i el cercador del header i li don el 100% de l'amplada de la pagina*/
+ .tablet_settings {
+  margin-top: 10px;
+  margin-bottom: 10px;
+ }
+
+ /*Colocar el cercador alla on vui*/
+ .tablet_settings input[type=search]{
+  padding-left: 15px;
+  float: right;
+  height: 30px;
+  width: 25%;
+ }
+  
+ /*Colocar l'icone d ela lupa a la dreta,la separacio que volem amb la dreta  i donar la dimensio que vui*/
+   #lupa {   
+    float: right;
+    font-size: 30px;
+    margin-right: 15px;
+   }
+
+  /*Dic a la clase que pugi tenir els objectes en linia i li don un marge amb l'esquera*/
+   .Equipos_i_Pilotos {
+    display: inline-block;
+    margin-left: 20%;
+   
+  }
+
+  /*Tamany del text que hi ha al costat del desplegable*/
+  .Equipos_i_Pilotos label {
+    font-size: 25px;
+  }
+
+  /*Dic que la clase pugui estar amb linia amb altres objectes*/
+  .Equipos {
+    display: inline-block;
+  }
+
+/*Dic que la clase pugui estar amb linia amb altres objectes*/
+  .Pilotos {
+    display: inline-block;
+    margin-left: 50px;
+    
+  }
+
+  /*Tamany del desplegable*/
+  #Equipo {
+    width: 20px;
+    margin-left:8px;
+  }
+
+  /*Tamany del desplegable*/
+  #Piloto {
+    width: 20px;
+    margin-left: 8px;
+  }
+
+  /*Definir color i alçada de la linia i separacio amb el que hi ha dalt*/
+  .tablet_settings hr {
+    margin-top: 17px;
+    border-width: 5x;
+    border-color: #131212;
+  }
+
+  /*Colocar el icone de filtres a l'esquerra i el tamany*/
+  #filtros {
+    float: left;
+    left: 0;
+    margin-left: 30px;
+    font-size: 25px;
+    
+   }
+
+   /*Tamany del logo*/
+  #logo {
+    width: 57px;
+  }
+
+  /*Posicio i tamany del icone del carreto de compra*/
+  #carrito {
+    top: 0;
+    right: 0;
+    float: right;
+    color: #131212;
+    position: absolute;
+    font-size: 45px;
+    margin-right: 10px;
+  
+  }
+
+  /*Definir la separacio que vui de la section amb el footer,la separacio a la esquerra i dir-li que puguis tenir articles un duvora l'altre*/
+  section {
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+    
+  }
+
+ /*Definir el tamany el marge i la posicio del contenidor*/
+  .imatge-principal { 
+    width: 400px;
+    float: right;
+    margin-right: 25%;  
+   }
+
+   /*Tamany de l'imatge principal*/
+   .imatge-principal img {
+    width: 400px;
+ 
+   }
+
+   /*Definir marges de dalt i baix del contenedor*/
+   .descripcioProducte {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+    
+   }
+
+    /*Posicio del contenedor*/
+   .contenidor-lateral {
+    margin-left: 14%;
+   }
+
+   
+/*Tamany de la imatge*/
+  .imatges-secundaries img {
+    width: 131px;
+    
+  }
+
+ /*Posicio del contenedor del nom i preu del producte*/
+  .titol-producte {
+   margin-top: 10px;
+   margin-left: 15%;
+   margin-bottom: 5px;
+   
+  }
+
+   /*Tamany del nom del producte*/
+ .titol-producte h3 {
+    font-size: 35px;
+   
+  }
+
+   /*Tamany del preu del producte*/
+  .titol-producte p {
+    font-size: 35px;
+    width: 50%;
+  }
+  
+  /*Definir marc del contenedor de cada talla i la posicio*/
+  .talla {
+    border: 1px solid #131212;
+    margin-left: 16px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+  }
+
+  /*Tamany del text que hi al costat del radio*/
+  .talla span {
+    font-size: 30px;
+  }
+
+  /*Marge amb l'equesrra del cercle del radio*/
+  .talla input[type="radio"] {
+    margin-left: 5px;
+    width: 30px;
+       
+  }
+
+  /* Posar un marc al contnenedor  de les talles i un tamany*/
+  .tallas {
+    width: 533px;
+    margin-top: 10px;
+    border: 1px solid #131212;
+    padding-bottom: 15px;
+  }
+
+  /*Definir el tamany de la lletra i posarle en negreta*/
+  .tallas p {
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+   /*Definir la posicio del contenedor*/
+  .informacio-producte {
+    width: 520px;
+    margin-left: 14%;
+    margin-bottom: 20px;
+  }
+
+  /*Definir tamany,posicio i colors del contenedor*/
+  #afegir-carrito {
+    background-color: #131212;
+    color: #F5F5F5;
+    width: 540px;
+    height: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 2px;
+  }
+
+}
+
+/* Ordenador*/
+@media (min-width: 1025px){
+ 
+  /*Desabilit la clase que conte el filtratge i el cercador del movil*/
+  .movil_settings {
+    display: none;
+  }
+   /*Don altura al header*/
+  header {
+    height: 50px;
+  }
+ /*Pos el footer al fons de la pagina*/
+  footer {
+    position: fixed;
+    bottom: 0;
+  }
+ 
+
+  /*Separ el filtratge i el cercador del header i li don el 100% de l'amplada de la pagina*/
+ .tablet_settings {
+  margin-top: 10px;
+  margin-bottom: 10px;
+ }
+
+ /*Colocar el cercador alla on vui*/
+ .tablet_settings input[type=search]{
+  padding-left: 15px;
+  float: right;
+  height: 30px;
+  width: 25%;
+ }
+  
+ /*Colocar l'icone d ela lupa a la dreta,la separacio que volem amb la dreta  i donar la dimensio que vui*/
+   #lupa {   
+    float: right;
+    font-size: 30px;
+    margin-right: 15px;
+   }
+
+   /*Dic a la clase que pugi tenir els objectes en linia i li don un marge amb l'esquera*/
+   .Equipos_i_Pilotos {
+    display: inline-block;
+    margin-left: 15%;
+   
+  }
+
+  /*Tamany del text que hi ha al costat del desplegable*/
+  .Equipos_i_Pilotos label {
+    font-size: 25px;
+  }
+
+  /*Dic que la clase pugui estar amb linia amb altres objectes*/
+  .Equipos {
+    display: inline-block;
+  }
+
+ /*Dic que la clase pugui estar amb linia amb altres objectes*/
+  .Pilotos {
+    display: inline-block;
+    margin-left: 50px;
+    
+  }
+
+   
+    /*Tamany del desplegable*/
+  #Equipo {
+    width: 20px;
+    margin-left:8px;
+  }
+
+   /*Tamany del desplegable*/
+  #Piloto {
+    width: 20px;
+    margin-left: 8px;
+  }
+
+  /*Definir color i alçada de la linia i separacio amb el que hi ha dalt*/
+  .tablet_settings hr {
+    margin-top: 17px;
+    border-width: 5x;
+    border-color: #131212;
+  }
+
+  /*Tamany del logo*/
+  #logo {
+    width: 57px;
+  }
+
+  /*Posicio i tamany del icone del carreto de compra*/
+  #carrito {
+    top: 0;
+    right: 0;
+    float: right;
+    color: #131212;
+    position: absolute;
+    font-size: 45px;
+    margin-right: 10px;
+  
+  }
+
+  /*Definir la separacio que vui de la section amb el footer,la separacio a la esquerra i dir-li que puguis tenir articles un duvora l'altre*/
+  section {
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+    
+  }
+
+ /*Definir el tamany el marge i la posicio del contenidor*/
+  .imatge-principal {
+   
+    width: 400px;
+    float: right;
+    margin-right: 56%;
+    
+   }
+
+   /*Tamany de l'imatge principal*/
+   .imatge-principal img {
+    width: 400px;
+ 
+   }
+
+   /*Definir marges de dalt i baix del contenedor*/
+   .descripcioProducte {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+   }
+
+   /*Posar marge superior  a la Descripcio i a Deatlls*/
+   .descripcioProducte h3 {
+    margin-top: 10px;
+   }
+
+    /*Posicio del contenedor*/
+   .contenidor-lateral {
+    margin-left: 15%;
+   }
+
+   
+/*Tamany de l'imatges*/
+  .imatges-secundaries img {
+    width: 131px;
+    
+  }
+
+  /*Posicio del contenedor del nom i preu del producte*/
+  .titol-producte {
+   margin-top: 10px;
+   margin-left: 15%;
+   margin-bottom: 5px;
+   
+  }
+
+  /*Tamany del nom del producte*/
+ .titol-producte h3 {
+    font-size: 35px;
+   
+  }
+
+  /*Tamany del preu del producte*/
+  .titol-producte p {
+    font-size: 35px;
+    width: 50%;
+  }
+  
+  /*Definir marc del contenedor de cada talla i la posicio*/
+  .talla {
+    border: 1px solid #131212;
+    margin-left: 16px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+  }
+
+  /*Tamany del text que hi al costat del radio*/
+  .talla span {
+    font-size: 30px;
+  }
+
+  /*Marge amb l'equesrra del cercle del radio*/
+  .talla input[type="radio"] {
+    margin-left: 5px;
+    width: 30px;
+       
+  }
+
+  /* Posar un marc al contnenedor  de les talles i un tamany*/
+  .tallas {
+    width: 533px;
+    margin-top: 10px;
+    border: 1px solid #131212;
+    padding-bottom: 15px;
+  }
+
+  /*Definir el tamany de la lletra i posarle en negreta*/
+  .tallas p {
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  /*Definir la posicio del contenedor, a la dreta de la imatge principal*/
+  .informacio-producte {
+    width: 520px;
+    margin-left: 14%;
+    margin-bottom: 20px;
+    position: fixed;
+    right: 25%;
+    top: 24%;
+  }
+
+  /*Definir tamany,posicio i colors del contenedor*/
+  #afegir-carrito {
+    background-color: #131212;
+    color: #F5F5F5;
+    width: 533px;
+    margin-top: 115px;
+    height: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 2px;
+    
+  }
+}
