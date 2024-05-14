@@ -1,6 +1,6 @@
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   
 }
 
@@ -14,6 +14,7 @@ header {
 
 /*Color de la pagina*/
 header h1 {
+  
   color: #F5F5F5; 
 }
 

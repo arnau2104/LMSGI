@@ -1,0 +1,9 @@
+/* Ordenador*/
+@media (min-width: 1025px){
+ 
+  /*Desabilit la clase que conte el filtratge i el cercador del movil*/
+  .movil_settings {
+    display: none;
+  }
+
+}
