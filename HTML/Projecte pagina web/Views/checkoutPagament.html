@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>F1Caps-Carreto de Compra</title>
+  <link rel="stylesheet" href="../Assets/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" href="../CSS/checkoutPagament.css">
+</head>
+<body>
+  <header>
+    <div>
+        <a href="../index.html">
+            <img src="../Assets/Logo/logo clar.png" id="logo">
+            <h1>F1Caps</h1>
+        </a>
+      <a href="./CarretoCompra.html">
+        <i class="fa fa-shopping-cart" aria-hidden="true" id="carrito"></i>
+      </a>
+    </div>
+   </header>
+   <main>
+
+    <h1>CHECKOUT</h1>
+
+    <form action="get">
+        <p>Metodo de pago</p>
+        <input list="cars" id="metodoPago" name="metodoPago">
+        <datalist id="cars">
+            <option value="Tarjeta de credito">
+            <option value="PayPal">
+        </datalist>
+        <p>Numero de tarjeta</p><input type="text" name="nTarjeta" id="nTarjeta">
+        <p>CVV</p><input type="text" name="cvv" id="cvv">
+        <p>Caduca final</p><input type="text" name="caducaFinal" id="caducaFinal">
+        <p>Nombre titular de la tarjeta </p><input type="text" name="titularTatjeta" id="titularTatjeta">
+        <p>Cuenta Paypal</p><input type="text" name="codi-postal" id="codi-postal">
+        <p>Contraseña</p><input type="text" name="direccio-facturacio" id="direccio-facturacio">
+    </form>
+    
+    <a href="./ConfirmacioCompra.html">
+      <input type="button" name="continuar" id="continuar" value="Finalizar compra">
+    </a>
+
+   </main>
+   <footer>
+    <p>  @Copyright F1Caps</p>
+    <a href="https://www.instagram.com/">
+      <i class="fa fa-instagram" aria-hidden="true" id="instagram"></i>  
+   </a>
+   <a href="https://www.facebook.com/?locale=ca_ES">
+      <i class="fa fa-facebook-official" aria-hidden="true" id="facebook"></i>
+   </a>
+   <a href="https://twitter.com/i/flow/login?lang=ca">
+      <i class="fa fa-twitter" aria-hidden="true" id="twitter"></i>
+   </a>
+</footer>
+</body> 
+</html>

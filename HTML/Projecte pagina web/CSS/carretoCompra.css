@@ -1,9 +1,526 @@
-/* Ordenador*/
-@media (min-width: 1025px){
+/* Mòbil*/
+@media (max-width: 576px){ 
+
+  /*Desabitil la clase que conte el filtratge i el cercador de la tablet*/
+  .tablet_settings {
+    display: none;
+  }
+
+  /* Don altura al header*/
+  header {
+    height: 50px; 
+  }
+
+  footer {
+    background-color: #131212;
+    height: 40px;
+    position: relative;
+    bottom: 0;
+  }
+
+  footer div {
+    display: none;
+  }
+
+/*Separ el filtratge i el cercador del header i li don el 100% de l'amplada de la pagina*/
+  .movil_settings {
+  margin-top: 5px;
+  width: 100%;
+  display: inline-block;
+  
+ }
+
+  /*Colocar el icone de filtres a l'esquerra i el tamany*/
+  #filtros {
+    float: left;
+    margin-left: 10%;
+    font-size: 25px;
+    
+   }
+
+ #carrito {
+  top: 0;
+  right: 0;
+  float: right;
+  color: #131212;
+  position: absolute;
+  font-size: 45px;
+  margin-right: 10px;
+
+}
+
+   /*Tamany del logo*/
+   #logo {
+    width: 57px;
+  }
+
+ /*Colocar el cercador alla on vui*/
+ .movil_settings input[type=search]{
+  padding-left: 10px;
+  float: right;
+ }
+
+/*Colocar l'icone d ela lupa a la dreta,la separacio que volem amb la dreta  i donar la dimensio que vui*/
+   #lupa {
+    float: right;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 3px;
+   }
+
+   /*Colocar el titol*/
+   section h1 {
+    margin-top: 20px;
+    margin-left: 25px;
+   }
+
+   /* Posar un flex row perque els articles es posin un devall l'altre*/
+   .imatge-informacio-producte {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+   }
+
+   .imatge-informacio-producte img {
+    margin-right: 15px;
+    margin-left: 5px;
+    width: 100px;
+   }
+
+   .detalls-compra {
+      font-weight: bold;
+      margin-top: 15px;
+   }
+
+   .detalls-compra span {
+    text-decoration: underline;
+ }
+
+   .total {
+    margin-left: 40px;
+    margin-top: 50px;
+    
+   }
+
+   /* Posam l'icona de la papalera al costat del nom del producte*/
+   .fa-trash  {
+    font-size: 35px;
+    margin-left: 40px;
+    margin-top: 10px;
+   }
+
+   #total-cesta {
+    width: 100%;
+    height: 44px;
+    background-color: #CC0B0B;
+    color: #F5F5F5;
+    margin-top: 15px;
+   
+    
+   }
+
+   #comprar {
+    background-color: #131212;
+    color: #F5F5F5;
+    width: 100%;
+    height: 100%;
+   }
+
+   .total-pc {
+    display: none;
+   }
+   
  
-  /*Desabilit la clase que conte el filtratge i el cercador del movil*/
+   
+
+
+  }
+
+    /* Tablet*/
+@media (min-width: 577px) and (max-width: 1024px) {
+
+  /*Desabitil la clase que conte el filtratge i el cercador de la tablet*/
   .movil_settings {
     display: none;
   }
+
+   /* Don altura al header*/
+   header {
+    height: 50px;
+  }
+
+  footer {
+    background-color: #131212;
+    height: 40px;
+    position: relative;
+    bottom: 0;
+  }
+
+  footer div {
+    display: none;
+  }
+
+/*Separ el filtratge i el cercador del header i li don el 100% de l'amplada de la pagina*/
+ .tablet_settings {
+  margin-top: 10px;
+  margin-bottom: 10px;
+ }
+
+ /*Colocar el cercador alla on vui*/
+ .tablet_settings input[type=search]{
+  padding-left: 15px;
+  float: right;
+  height: 30px;
+  width: 25%;
+ }
+  
+ /*Colocar l'icone d ela lupa a la dreta,la separacio que volem amb la dreta  i donar la dimensio que vui*/
+   #lupa {   
+    float: right;
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 70px;
+   }
+
+  /*Dic a la clase que pugi tenir els objectes en linia i li don un marge amb l'esquera*/
+   .Equipos_i_Pilotos {
+    display: inline-block;
+    margin-left: 80px;
+   
+  }
+
+  /*Tamany del text que hi ha al costat del desplegable*/
+  .Equipos_i_Pilotos label {
+    font-size: 25px;
+  }
+
+  /*Dic que la clase pugui estar amb linia amb altres objectes*/
+  .Equipos {
+    display: inline-block;
+  }
+
+/*Dic que la clase pugui estar amb linia amb altres objectes*/
+  .Pilotos {
+    display: inline-block;
+    margin-left: 50px;
+    
+  }
+
+  /*Tamany del desplegable*/
+  #Equipo {
+    width: 20px;
+    margin-left:8px;
+  }
+
+  /*Tamany del desplegable*/
+  #Piloto {
+    width: 20px;
+    margin-left: 8px;
+  }
+
+  /*Definir color i alçada de la linia i separacio amb el que hi ha dalt*/
+  .tablet_settings hr {
+    margin-top: 20px;
+    border-color: #131212;
+  }
+
+  /*Colocar el icone de filtres a l'esquerra i el tamany*/
+  #filtros {
+    float: left;
+    left: 0;
+    margin-left: 30px;
+    font-size: 25px;
+    
+   }
+
+   /*Tamany del logo*/
+  #logo {
+    width: 57px;
+  }
+
+  /*Posicio i tamany del icone del carreto de compra*/
+  #carrito {
+    top: 0;
+    right: 0;
+    float: right;
+    color: #131212;
+    position: absolute;
+    font-size: 45px;
+    margin-right: 10px;
+  
+  }
+
+   /*Colocar el titol*/
+   section h1 {
+    margin-top: 40px;
+    margin-left: 25px;
+    font-size: 35px;
+    margin-bottom: 10px;
+   }
+
+   /* Posar un flex row perque els articles es posin un devall l'altre*/
+   .imatge-informacio-producte {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+   }
+
+   .imatge-informacio-producte img {
+    margin-right: 15px;
+    margin-left: 5px;
+    width: 200px;
+   }
+
+   .detalls-compra {
+      font-weight: bold;
+      margin-top: 15px;
+      font-size: 25px;
+   }
+
+   .detalls-compra span {
+    text-decoration: underline;
+ }
+
+   .total {
+    margin-left: 190px;
+    margin-top: 125px;
+    font-size: 25px;
+   }
+
+   /* Posam l'icona de la papalera al costat del nom del producte*/
+   .fa-trash  {
+    font-size: 55px;
+    margin-left: 200px;
+    margin-top: 10px;
+   }
+
+   #total-cesta {
+    width: 100%;
+    height: 44px;
+    background-color: #CC0B0B;
+    color: #F5F5F5;
+    margin-top: 15px;
+   
+    
+   }
+
+   #comprar {
+    background-color: #131212;
+    color: #F5F5F5;
+    width: 100%;
+    height: 100%;
+   }
+
+   .total-pc {
+    display: none;
+   }
+
+
+}
+
+/* Ordenador*/
+@media (min-width: 1025px){
+
+   /*Desabitil la clase que conte el filtratge i el cercador de la tablet*/
+   .movil_settings {
+    display: none;
+  }
+
+   /* Don altura al header*/
+   header {
+    height: 50px;
+  }
+
+  footer {
+    background-color: #CC0B0B;
+    height: 40px;
+    position: relative;
+    bottom: 0;
+    height: 100%;
+  }
+
+/*Separ el filtratge i el cercador del header i li don el 100% de l'amplada de la pagina*/
+ .tablet_settings {
+  margin-top: 10px;
+  margin-bottom: 10px;
+ }
+
+ /*Colocar el cercador alla on vui*/
+ .tablet_settings input[type=search]{
+  padding-left: 15px;
+  float: right;
+  height: 30px;
+  width: 25%;
+ }
+  
+ /*Colocar l'icone d ela lupa a la dreta,la separacio que volem amb la dreta  i donar la dimensio que vui*/
+   #lupa {   
+    float: right;
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 70px;
+   }
+
+  /*Dic a la clase que pugi tenir els objectes en linia i li don un marge amb l'esquera*/
+   .Equipos_i_Pilotos {
+    display: inline-block;
+    margin-left: 80px;
+   
+  }
+
+  /*Tamany del text que hi ha al costat del desplegable*/
+  .Equipos_i_Pilotos label {
+    font-size: 25px;
+  }
+
+  /*Dic que la clase pugui estar amb linia amb altres objectes*/
+  .Equipos {
+    display: inline-block;
+  }
+
+/*Dic que la clase pugui estar amb linia amb altres objectes*/
+  .Pilotos {
+    display: inline-block;
+    margin-left: 50px;
+    
+  }
+
+  /*Tamany del desplegable*/
+  #Equipo {
+    width: 20px;
+    margin-left:8px;
+  }
+
+  /*Tamany del desplegable*/
+  #Piloto {
+    width: 20px;
+    margin-left: 8px;
+  }
+
+  /*Definir color i alçada de la linia i separacio amb el que hi ha dalt*/
+  .tablet_settings hr {
+    margin-top: 20px;
+    border-color: #131212;
+  }
+
+  /*Colocar el icone de filtres a l'esquerra i el tamany*/
+  #filtros {
+    float: left;
+    left: 0;
+    margin-left: 30px;
+    font-size: 25px;
+    
+   }
+
+   /*Tamany del logo*/
+  #logo {
+    width: 57px;
+  }
+
+  /*Posicio i tamany del icone del carreto de compra*/
+  #carrito {
+    top: 0;
+    right: 0;
+    float: right;
+    color: #131212;
+    position: absolute;
+    font-size: 45px;
+    margin-right: 10px;
+  
+  }
+
+  .contenedor-pc {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+   /*Colocar el titol*/
+   section h1 {
+    margin-top: 40px;
+    margin-left: 25px;
+    font-size: 35px;
+    margin-bottom: 10px;
+   }
+
+   
+
+
+   /* Posar un flex row perque els articles es posin un devall l'altre*/
+   .imatge-informacio-producte {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+   }
+
+   
+
+   .imatge-informacio-producte img {
+    margin-right: 15px;
+    margin-left: 5px;
+    width: 200px;
+   }
+
+   .detalls-compra {
+      font-weight: bold;
+      margin-top: 15px;
+      font-size: 25px;
+   }
+
+   .detalls-compra span {
+    text-decoration: underline;
+ }
+
+   .total {
+    margin-left: 190px;
+    margin-top: 125px;
+    font-size: 25px;
+   }
+
+   /* Posam l'icona de la papalera al costat del nom del producte*/
+   .fa-trash  {
+    font-size: 55px;
+    margin-left: 200px;
+    margin-top: 10px;
+   }
+
+   #total-cesta {
+    display: none;
+   
+   }
+
+   #comprar {
+    display: none;
+   }
+
+   .total-pc {
+    border: 2px solid #131212;
+    margin-left: 15%;
+    width: 500px;
+    height: 270px;
+    font-size: 35px;
+    margin-top: 100px;
+    margin-right: 2%;
+
+   }   
+
+   
+
+
+   #comprar-pc {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #CC0B0B;
+    color: #F5F5F5;
+    height: 70px;
+    font-size: 20px;
+    
+   }
+
+  
+
 
 }
