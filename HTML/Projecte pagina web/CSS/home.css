@@ -324,7 +324,7 @@
       }
     
       /*Tamany del desplegable*/
-      #Pilotos {
+      #Pilotos:not(selected) {
         width: 20px;
         
       }
@@ -341,29 +341,23 @@
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      margin-left: 50px;
       margin-bottom: 10%;
-      
-  
+      margin-left: 75px;  
       }
     
       /*Dirli la separacio que tenen uns amb els altres,que es pugin posar un duvora l'altre i les dimensions*/
       article{
         margin-top: 20px;
-        display: flex;
-        flex-direction: row;
-        width: 20%;
+        width: 290px;
         padding-right: 10px;
-        margin-right: 2%;
-        margin-left: 2%;   
-        position: relative;
-        flex-wrap: wrap;
-        
+        margin-right: 10px;
+        margin-left: 10px;   
+        position: relative;        
       }
     
     /*Tamany de l'imatge*/
       .image-container img {
-        width: 400px;
+        width: 100%;
       }
 
       /*Animacio al pasar per damunt l'imatge*/
