@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Mòbil*/
+@media (max-width: 576px){ 
+
+header {
+  display: grid;
+  grid-template-columns: auto 80px  ; 
+  grid-template-rows: auto auto;
+  background-color: brown;
+}
+
+header div {
+  display: inline-block;
+
+}
+
+.nav-item {
+  margin-left: 5px;
+}
+
+.nav-text {
+  display: none;
+}
+
+
+#search-bar-nav {
+  margin-top: 15px;
+  width: 100%;
+  grid-column: 1 / span 2; /* Extender el search bar para ocupar tres columnas */
+}
+
+#search-bar-nav input[type="text"] {
+  width: 90%;
+  margin-left: 5px;
+}
+
+}
+
+/* Tablet*/
+@media (min-width: 577px) and (max-width: 1024px) {
+
+  header {
+      display: grid;
+     grid-template-rows: auto auto;
+      grid-template-columns: auto auto;
+      background-color: brown;
+     
+  }
+
+  header div {
+      display: inline-block;
+  
+  }
+  .nav-text {
+      display: none;
+  }
+
+  .logo {
+      grid-column: 1 / span 2;
+     text-align: center;
+      margin-bottom: 10px;
+
+  }
+
+  #search-bar-nav {
+      width: 100%;
+  }
+
+  #search-bar-nav input[type="text"] {
+      width: 72%;
+  }
+
+  .search-icon {
+      display: none;
+  }
+
+}
+
+/* Ordenador*/
+@media (min-width: 1025px){
+
+
+  header {
+      background-color: brown;
+      display: grid;
+      grid-template-columns:  auto 150px 180px;
+      height: 50px;
+      
+  }
+
+  header div {
+      display: inline-block;
+  }
+
+ .nav-item:first-child {
+  display: none;
+ }
+
+ .search-bar {
+  display: inline-block;
+ }
+
+
+
+}
